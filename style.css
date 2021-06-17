@@ -1,0 +1,86 @@
+/*
+ Theme Name:   Mosaika Fifteen
+ Description:  Thème enfant de Twenty Fifteen pour le lab Mosaika
+ Author:       Pierre SAIKALI
+ Author URI:   http://mosaika.fr
+ Template:     twentyfifteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+
+/*
+
+	CUSTOM MOSAIKA
+
+*/
+
+.site-header {
+	padding:2.5%;
+}
+
+.site-main {
+	padding:2.5% 0;
+}
+
+.hentry {
+	margin: 0 2.5%;
+}
+
+.entry-content, .entry-summary {
+  padding: 0 5% 5%;
+}
+
+.page .entry-footer, footer#colophon {
+	display: none;
+}
+
+.alert {
+	font-size: .8em;
+	padding:.75em 1em;
+	border-radius:3px;
+	background: #f5a7a7;
+	margin:1em 0;
+}
+
+
+
+
+
+
+table.popularity {
+	font-size:.8em;
+}
+
+table.popularity tr th {
+	background: #555;
+	color:#fff;
+}
+
+table.popularity th, table.popularity td {
+	text-align: center;
+}
+
+table.popularity h3 {
+	margin:.5em 0 .25em;
+}
+
+table.popularity a.button {
+	margin-bottom: .625em;
+}
+
+table.popularity a.button span {
+	display: inline-block;
+	margin-top: .5em;
+}
+
+table.popularity td i.genericon {
+	font-size:2em;
+	margin-right: .125em;
+	opacity:.5;
+}
+
+table.popularity td.hates-number i.genericon {
+	transform: rotate(180deg);
+}
